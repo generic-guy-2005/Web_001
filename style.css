@@ -1,0 +1,162 @@
+* {
+    color: white;
+    font-family: Ubuntu;
+}
+
+.greet h1{
+    color: white;
+    margin-top: 30vh;
+    right: 60px;
+    font-size: 52px;
+}
+
+.greet p {
+    position: absolute;
+    text-align: end;
+    color: white;
+    margin-top: 50vh;
+    right: 60px;
+    width: 40vw;
+    font-size: 24px;
+    text-shadow: 2px 2px 5px black;
+}
+
+.start {
+    position: absolute;
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 10vw;
+    height: 50px;
+    right: 60px;
+    margin-top: 80vh;
+    border-radius: 25px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.start:active {
+    background-color: #1dde50;
+}
+
+.trial {
+    position: absolute;
+    font-size: 14px;
+    right: 90px;
+    margin-top: 87vh;
+    text-shadow: 2px 2px 5px black;
+}
+
+body {
+    background-image: url("purple-mountain-landscape.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    position: absolute;
+    padding-left: 50px;
+}
+
+.content1 {
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 50px;
+    padding: 1%;
+    border: solid #00879E;
+    border-radius: 25px;
+}
+
+.content1:hover {
+    cursor: pointer;
+    background-color: #00879E;
+    transition: 0.2s;
+}
+
+.content2 {
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 50px;
+    padding: 1%;
+    border: solid #FFAB5B;
+    border-radius: 25px;
+}
+
+.content2:hover {
+    cursor: pointer;
+    background-color: #FFAB5B;
+    transition: 0.2s;
+}
+
+.triangle {
+	width: 0;
+	height: 0;
+    margin: -10px;
+	border-top: 0px solid transparent;
+	border-left: 50vw solid #003092;
+	border-bottom: 50vw solid transparent;
+}
+
+.rickroll{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 50px;
+    width: 100px;
+    border: solid;
+    border-radius: 10px;
+}
+
+h2 {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 175px;
+}
+
+.youtube {
+    position: absolute;
+    margin-top: 285px;
+    margin-left: 180px;
+    height: 20px;
+}
+
+.ytcontent {
+    position: absolute;
+    margin-top: 269px;
+    margin-left: 220px;
+    cursor: pointer;
+}
+
+.instagram {
+    position: absolute;
+    margin-top: 320px;
+    margin-left: 182px;
+    height: 25px;
+}
+
+.igcontent {
+    position: absolute;
+    margin-top: 308px;
+    margin-left: 212px;
+    cursor: pointer;
+}
+
+.logos {
+    position: absolute;
+    background-color: #FFAB5B;
+    padding: 10px;
+    border-radius: 25px;
+    margin-top: 20px;
+    right: 20px;
+}
+
+.logos:hover {
+    background-color: #00879E;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.logos:active {
+    background-color: #003092;
+    color: black;
+}
+
