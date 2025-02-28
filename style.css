@@ -90,7 +90,7 @@ h1 {
 
 .triangle {
 	width: 0;
-	height: 0;
+	height: 100vh;
     margin: -10px;
 	border-top: 0px solid transparent;
 	border-left: 50vw solid #003092;
